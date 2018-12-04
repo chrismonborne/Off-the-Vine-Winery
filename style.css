@@ -1,0 +1,651 @@
+body {
+  font-family: 'Trade Gothic LT Std', Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.monogram {
+  max-width: 25%;
+  display: inline-block;
+  padding-left: 1em;
+  padding: .7em;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.monogram img {
+  width: 100%;
+}
+
+.logo {
+  max-width: 35%;
+  align-content: center;
+  padding: 5em;
+}
+
+img {
+  max-width: 100%;
+  align: center;
+}
+
+h1{
+  font-family: 'Charter', cursive, serif;
+  font-family: 'Charter', sans-serif;
+  font-weight: bold;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #E0D1BA;
+  color: #655B4F;
+  padding: .25em;
+  padding-left: .5em;
+  margin: .5em;
+  line-height: .9em;
+}
+
+h2{
+  margin: 0 auto;
+  font-family: 'Charter', sans-serif;
+  font-size: 1.75em;
+  font-style: italic;
+  max-width: 100%;
+  padding-left: 1.5em;
+  color: black;
+  font-family: 'Charter', 'Baskerville', sans-serif;
+  font-size: 1.65em;
+  font-weight: bold;
+  max-width: 100%;
+  color: #993434;
+  margin: 0 auto;
+  padding: 1.45em;
+  padding-top: .4em;
+  border-bottom: .5px;
+  border-bottom-color: #993434;
+  border-bottom-style: dashed;
+
+}
+
+h3 {
+  margin-top: px;
+  padding-bottom: 1em;
+  padding-left: 2.2em;
+  font-family: 'Trade Gothic LT Std', 'Futura', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: -32px;
+}
+
+p {
+  font-family: 'Futura', 'Trade Gothic LT Std';
+  margin: auto;
+  padding-left: 2.25em;
+  padding-bottom: 1em;
+  padding-right: 2.25em;
+}
+
+.prototype {
+  font-family: 'Futura';
+  padding: 3em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  font-weight: bold;
+}
+
+.primary {
+  width: 100px;
+  height: 100px;
+  Background-color: #655B4F;
+  display: flex;
+  margin-top: .5em;
+}
+
+.secondary {
+  width: 100px;
+  height: 100px;
+  Background-color: #E0D1BA;
+  margin-top: .5em;
+}
+
+.tirciary {
+  width: 100px;
+  height: 100px;
+  Background-color: #ebe6e0;
+  margin-top: .5em;
+}
+
+.headerfooter {
+  width: 100px;
+  height: 100px;
+  Background-color: #282828;
+  margin-top: .5em;
+}
+
+.compliment {
+  width: 100px;
+  height: 100px;
+  Background-color: #993434;
+  margin-top: .5em;
+}
+
+.colors li {
+  float: left;
+  margin: 0 auto;
+  width: 18.5%;
+}
+
+.content{
+  clear: left;
+  padding-top: 1em;
+}
+
+.rule {
+  align: center;
+  padding-top: 1em;
+}
+
+
+
+.blockquote {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Charter', serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: #655B4F;
+  font-style: italic;
+  line-height: 1.1em;
+  padding-bottom: 1em;
+}
+
+.blockquote-about {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Charter', serif;
+  font-size: 2.5em;
+  text-align: center;
+  color: #f3f3f3;
+  font-style: italic;
+  line-height: 1.1em;
+  padding-bottom: 1em;
+}
+
+.corks-about-page {
+    height: 55vh;
+    background-image: url(wine-stoppers-pc-and-mac-1073571.jpg);
+    background-color: rgba(0,0,0,.45)
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.corks-about-page:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.45);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+.narrow-img{
+  width: 85%;
+  display: block;
+  margin: 2em;
+}
+
+.line{
+  font-size: 2.5em;
+  color: #655B4F;
+  margin-top: -60px;
+  padding-left: 1em;
+  margin-bottom: .75em;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 700px) {
+
+  .narrow-img{
+    max-width: 40%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  h1, h2{
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .line{
+    display: flex;
+  }
+}
+
+/******** @media screen ENDS********/
+
+@media screen and (min-width: 1200px) {
+
+  .box{
+    padding: 2em;
+}
+
+  .narrow-img{
+    width: 45%;
+    float: left;
+    margin: 0;
+    padding-right: 2em;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .line {
+    padding-top: 20px;
+    margin-bottom: 1px;
+  }
+
+  .content {
+    clear: none;
+    padding-top: .25em;
+    margin: 0;
+  }
+
+  p{
+    margin: .5em;
+  }
+}
+
+/******** @media screen ENDS ********/
+
+a {
+  color:#282828;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E0D1BA;
+  text-decoration: none;
+}
+
+table{
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #655B4F;
+}
+
+td{
+  padding-bottom: 1em;
+  padding-right: 10px;
+  font-family: 'Trade Gothic LT Std';
+}
+
+dt{
+  padding: .25em;
+  padding-bottom: 1em;
+  font-family: 'Trade Gothic LT Std', 'Futura', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 2.5em;
+}
+
+dl{
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+dd{
+  margin: 0 auto;
+  font-family: 'Charter';
+}
+
+/* Appetizers Names BEGINS */
+
+span{
+  font-family: 'Baskerville', cursive-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Appetizers Names ENDS */
+
+li {
+  /padding: .3em;
+  font-family: 'Baskerville', serif;
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  color: #993434;
+}
+
+.email {
+  text-decoration: none;
+  color: #655B4F;
+}
+
+.email:hover, .email:focus {
+  color: #E0D1BA;
+}
+
+.vinepoles {
+  display: flex;
+  max-width: 100%;
+}
+
+.links:hover, .links:focus {
+      text-decoration: none;
+      color: #E0D1BA;
+}
+
+.links {
+      text-decoration: none;
+      color: #655B4F;
+}
+
+.bottles {
+    height: 55vh;
+    background-image: url(wine-bottle-sizes-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bottles__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.bottles__text {
+    max-width: 50%;
+    width: 100%;
+    z-index: 100;
+
+    /*z-index: 100;
+    padding: 1em;
+    color: #f3f3f3;
+    font-family: "Baskerville", Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;*/
+}
+
+/* All this does is add a 50% black background on top of the image */
+.bottles:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.45);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+@media screen and (min-width: 800px) {
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+
+footer {
+  font-family: 'Trade Gothic LT', sans-serif;
+  background-color: black;
+  padding: 2em;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 2em;
+  clear: left;
+  margin-top: 5em;
+}
+
+.footer-subhead{
+  font-weight: bold;
+  color:#f3f3f3;
+}
+
+.footer-line {
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.footer-monogram {
+  max-width: 60%;
+  margin: 0 auto;
+  align: center;
+}
+
+/* HAMBURGER BEGINS */
+body{
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+header{
+	width:100%;
+	border-bottom:0em solid #282828;
+}
+
+
+@media screen and (min-width:800px) {
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#282828;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+/*.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;*/
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0;}
+.menu li:hover, .menu li:focus{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover, .menu ul li a:focus {  color: #655B4F; text-decoration:none;}
+.menu a{text-decoration:none; color:#655B4F;}
+.menu a:hover, .menu a:focus{text-decoration:none; color:#655B4F;}
+
+.glyphicon-home{
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}
+header{display:inline-block; font-size:26px;}
+
+
+/* NAVIGATION CODE BEGINS */
+
+nav[role=navigation] {
+           clear: both;
+           -webkit-transition: all 0.3s ease-out;
+           -moz-transition: all 0.3s ease-out;
+           -ms-transition: all 0.3s ease-out;
+           -o-transition: all 0.3s ease-out;
+           transition: all 0.3s ease-out;
+       }
+       .js nav[role=navigation] {
+           overflow: hidden;
+           max-height: 0;
+       }
+       nav[role=navigation].active {
+           max-height: 15em;
+       }
+       nav[role=navigation] ul {
+           margin: 0;
+           padding: 0;
+           border-top: 1px solid #808080;
+       }
+       nav[role=navigation] li a {
+           display: block;
+           padding: 0.8em;
+           border-bottom: 1px solid #808080;
+       }
+
+       @media screen and (min-width:800px) {
+
+         .menu {
+           position: relative;
+         }
+
+           a.menu-link {
+              display: none;
+           }
+           .js nav[role=navigation] {
+               max-height: none;
+               margin-left: auto;
+           }
+           nav[role=navigation] ul {
+               margin: 0 0 0 -0.25em;
+               border: 0;
+           }
+
+           nav[role=navigation]  li {
+               display: inline-block;
+               margin: 0 0.25em;
+           }
+           nav[role=navigation] li a {
+               border: 0;
+           }
+
+           header {
+             display: flex;
+           }
+       }
+
+/* NAVIGATION CODE ENDS */
+
+/* Hamburger BEGINS*/
+
+a.menu-link {
+        float: right;
+            display: block;
+            padding: 1.5em;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        nav[role=navigation] {
+            clear: both;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        .js nav[role=navigation] {
+            overflow: hidden;
+            max-height: 0;
+        }
+        nav[role=navigation].active {
+            max-height: 15em;
+        }
+        nav[role=navigation] ul {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid #808080;
+        }
+        nav[role=navigation] li a {
+            display: block;
+            padding: 0.8em;
+            border-bottom: 1px solid #808080;
+        }
+
+        @media screen and (min-width:800px) {
+            a.menu-link {
+               display: none;
+            }
+            .js nav[role=navigation] {
+                max-height: none;
+                width: 90%;
+                padding-top: 4em;
+            }
+            nav[role=navigation] ul {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
+
+            nav[role=navigation]  li {
+                display: inline-block;
+                margin: 0 0.25em;
+            }
+            nav[role=navigation] li a {
+                border: 0;
+            }
+        }
+/*/////////LINK///////////
+    @media screen and (min-width:800px) {
+           a:link {
+               text-decoration: none;
+               width: 100%;
+}
+    }*/
+/* Hamburger  ENDS*/
+
+
+
+
+/*
+   medium gray: #ebe6e0
+   off white: #f3f3f3
+   light brown: #E0D1BA
+   dark brown: #655B4F
+   dark gray: #282828
+*/
+
+
+
+/* div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
